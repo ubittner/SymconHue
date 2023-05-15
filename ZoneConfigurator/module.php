@@ -139,7 +139,7 @@ class HueZoneConfigurator extends IPSModule
             if ($guid != '') {
                 $ids = IPS_GetInstanceListByModuleID($guid);
                 foreach ($ids as $id) {
-                    if ((strtolower(IPS_GetProperty($id, 'DeviceID')) == strtolower($DeviceID)) && (strtolower(IPS_GetProperty($id, 'ResourceID')) == strtolower($ResourceID))) {
+                    if ((strtolower(IPS_GetProperty($id, 'RoomZoneID')) == strtolower($DeviceID)) && (strtolower(IPS_GetProperty($id, 'ResourceID')) == strtolower($ResourceID))) {
                         return $id;
                     }
                 }
