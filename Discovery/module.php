@@ -129,9 +129,9 @@ class HueDiscovery extends IPSModule
                 $bridge['Hostname'] = $deviceInfo[0]['Host'];
                 //IPv4 and IPv6 are swapped
                 if (empty($deviceInfo[0]['IPv4'])) {
-                    $bridge['ipv4'] = $deviceInfo[0]['IPv6'][0];
+                    $bridge['IPv4'] = $deviceInfo[0]['IPv6'][0];
                 } else {
-                    $bridge['ipv4'] = $deviceInfo[0]['IPv4'][0];
+                    $bridge['IPv4'] = $deviceInfo[0]['IPv4'][0];
                 }
                 $bridgeData = json_decode($this->ReadBridgeData($bridge['IPv4']), true);
                 if (array_key_exists('device', $bridgeData)) {
