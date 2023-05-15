@@ -1,0 +1,17 @@
+{
+    "translations": {
+        "de": {
+            "Philips Hue Grouped Light": "Philips Hue Lichtgruppe",
+            "Hue Room / Zone ID": "Hue Raum / Zone ID",
+            "Hue Resource ID": "Hue Ressource ID",
+            "Update Scene Profile": "Aktualisiere Szenenprofil",
+            "Update Status": "Status aktualisieren",
+            "State": "Status",
+            "Brightness": "Helligkeit",
+            "Color": "Farbe",
+            "Color Temperature": "Farbtemperatur",
+            "Transition": "Übergang",
+            "Scene": "Szene"
+        }
+    }
+}

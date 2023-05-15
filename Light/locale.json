@@ -1,0 +1,15 @@
+{
+    "translations": {
+        "de": {
+            "Philips Hue Light": "Philips Hue Lampe",
+            "Hue Device ID": "Hue Geräte ID",
+            "Hue Resource ID": "Hue Ressource ID",
+            "Update Status": "Status aktualisieren",
+            "State": "Status",
+            "Brightness": "Helligkeit",
+            "Color": "Farbe",
+            "Color Temperature": "Farbtemperatur",
+            "Transition": "Übergang"
+        }
+    }
+}

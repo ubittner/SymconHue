@@ -1,0 +1,12 @@
+{
+    "id": "{48C58F44-EB58-EEED-2C02-5E7D0A91D4FE}",
+    "name": "Philips Hue",
+    "author": "Ulrich Bittner",
+    "url": "https://github.com/ubittner/SymconHue",
+    "compatibility": {
+        "version": "6.0"
+    },
+    "version": "1.0",
+    "build": 1,
+    "date": 1684123200
+}

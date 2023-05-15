@@ -1,0 +1,14 @@
+{
+    "id": "{B5D437BF-D165-7D20-C2CB-FAF88BDD4011}",
+    "name": "Hue Discovery",
+    "type": 5,
+    "vendor": "Philips",
+    "aliases": [
+        "Philips Hue Discovery"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "HUE",
+    "url": "https://github.com/ubittner/SymconHue/tree/main/Discovery"
+}

@@ -1,0 +1,13 @@
+{
+    "translations": {
+        "de": {
+            "IP Address": "IP-Adresse",
+            "Device Name": "Gerätename",
+            "Model Name": "Modellbezeichnung",
+            "Model Number": "Modellnummer",
+            "Serial Number": "Seriennummer",
+            "Device Configurator": "Gerätekonfigurator",
+            "Zone Configurator": "Zonenkonfigurator"
+        }
+    }
+}

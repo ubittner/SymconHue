@@ -1,0 +1,19 @@
+{
+    "translations": {
+        "de": {
+            "IP Address": "IP-Adresse",
+            "Register IP-Symcon": "IP-Symcon registrieren",
+            "Registration": "Registrierung",
+            "Please press the connect button of Philips Hue Bridge first and complete the registration within 30 seconds.": "Bitte drücken Sie zunächst auf die Verbindungstaste der Philips Hue Bridge und schließen dann die Registrierung innerhalb von 30 Sekunden ab.",
+            "Register": "Registrieren",
+            "Developer Area": "Entwicklerbereich",
+            "Update": "Aktualisieren",
+            "Application Key: Not registered yet!": "Application Key: Noch nicht registriert!",
+            "Hue Bridge will be created": "Hue Bridge wird erstellt",
+            "Hue Bridge is active": "Hue Bridge ist aktiv",
+            "Hue Bridge will be deleted": "Hue Bridge wird gelöscht",
+            "Hue Bridge is inactive": "Hue Bridge ist inaktiv",
+            "Please register, for further information see messages, log file or debug": "Bitte registrieren, weitere Informationen unter Meldungen, im Log oder Debug"
+        }
+    }
+}

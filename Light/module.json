@@ -1,0 +1,19 @@
+{
+    "id": "{C3C746F2-583B-1889-4321-E4DE8CB05846}",
+    "name": "Hue Light",
+    "type": 3,
+    "vendor": "Philips",
+    "aliases": [
+        "Philips Hue Light",
+        "Philips Hue Lampe"
+    ],
+    "parentRequirements": [
+        "{3C89E2B5-A25F-8D3B-DB5D-D99AC9416D8A}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{72F9EAB8-BEED-2918-7295-804C50D91D65}"
+    ],
+    "prefix": "HUE",
+    "url": "https://github.com/ubittner/SymconHue/tree/main/Light"
+}

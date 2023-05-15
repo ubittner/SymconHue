@@ -1,0 +1,21 @@
+{
+    "id": "{A8577857-5AC9-A684-C4CC-671A921E8BFE}",
+    "name": "Hue Bridge",
+    "type": 2,
+    "vendor": "Philips",
+    "aliases": [
+        "Philips Hue Bridge"
+    ],
+    "parentRequirements": [
+        "{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}"
+    ],
+    "childRequirements": [
+        "{72F9EAB8-BEED-2918-7295-804C50D91D65}"
+    ],
+    "implemented": [
+        "{3C89E2B5-A25F-8D3B-DB5D-D99AC9416D8A}",
+        "{5A709184-B602-D394-227F-207611A33BDF}"
+    ],
+    "prefix": "HUE",
+    "url": "https://github.com/ubittner/SymconHue/tree/main/Bridge"
+}

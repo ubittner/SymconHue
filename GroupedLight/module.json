@@ -1,0 +1,19 @@
+{
+    "id": "{17F36BF2-DAF5-27CB-D815-4609C523ED14}",
+    "name": "Hue Grouped Light",
+    "type": 3,
+    "vendor": "Philips",
+    "aliases": [
+        "Philips Hue Grouped Light",
+        "Philips Hue Lichtgruppe"
+    ],
+    "parentRequirements": [
+        "{3C89E2B5-A25F-8D3B-DB5D-D99AC9416D8A}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{72F9EAB8-BEED-2918-7295-804C50D91D65}"
+    ],
+    "prefix": "HUE",
+    "url": "https://github.com/ubittner/SymconHue/tree/main/GroupedLight"
+}
