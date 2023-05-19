@@ -137,7 +137,7 @@ class HueLight extends IPSModule
     public function ReceiveData($JSONString)
     {
         $this->SendDebug(__FUNCTION__, $JSONString, 0);
-        $this->MapResultsToValues($JSONString);
+        $this->UpdateLightValues();
     }
 
     public function RequestAction($Ident, $Value)
