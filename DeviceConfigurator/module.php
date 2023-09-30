@@ -93,6 +93,10 @@ class HueDeviceConfigurator extends IPSModule
                 if ($service['rtype'] == 'taurus_7455') {
                     continue;
                 }
+                //Not implemented yet, need to create a module for this rtype
+                if ($service['rtype'] == 'zigbee_connectivity') {
+                    continue;
+                }
                 $servicesID++;
                 $values[] = [
                     'parent'                => $key + 1,
