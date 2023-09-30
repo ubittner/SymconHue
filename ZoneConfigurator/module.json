@@ -4,8 +4,7 @@
     "type": 4,
     "vendor": "Philips",
     "aliases": [
-        "Philips Hue Zone Configurator",
-        "Philips Hue Zonenkonfigurator"
+        "Philips Hue Zone Configurator"
     ],
     "parentRequirements": [
         "{3C89E2B5-A25F-8D3B-DB5D-D99AC9416D8A}"
