@@ -32,7 +32,6 @@ class HueZoneConfigurator extends IPSModule
 
         ##### Properties
         $this->RegisterPropertyString('SerialNumber', '');
-        $this->RegisterPropertyInteger('Category', 0);
 
         ##### Connect to parent bridge
         $this->ConnectParent('{A8577857-5AC9-A684-C4CC-671A921E8BFE}');
@@ -102,8 +101,7 @@ class HueZoneConfigurator extends IPSModule
                             'RoomZoneID'        => strval($zone['id']),
                             'ResourceID'        => strval($service['rid']),
                         ],
-                        'name'     => $zone['metadata']['name'] . ' ' . ucfirst($service['rtype']),
-                        'location' => $this->GetCategoryPath($this->ReadPropertyInteger('Category'))
+                        'name'     => $zone['metadata']['name'] . ' ' . ucfirst($service['rtype'])
                     ]
                 ];
             }
@@ -113,20 +111,6 @@ class HueZoneConfigurator extends IPSModule
     }
 
     ########## Private
-
-    private function GetCategoryPath(int $CategoryID): array
-    {
-        if ($CategoryID === 0) {
-            return [];
-        }
-        $path[] = IPS_GetName($CategoryID);
-        $parentID = IPS_GetObject($CategoryID)['ParentID'];
-        while ($parentID > 0) {
-            $path[] = IPS_GetName($parentID);
-            $parentID = IPS_GetObject($parentID)['ParentID'];
-        }
-        return array_reverse($path);
-    }
 
     private function GetModuleGUID(string $Type): string
     {

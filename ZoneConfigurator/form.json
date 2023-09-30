@@ -20,11 +20,6 @@
             "type": "ValidationTextBox",
             "name": "SerialNumber",
             "caption": "Serial Number"
-        },
-        {
-            "type": "SelectCategory",
-            "name": "Category",
-            "caption": "Category"
         }
     ],
     "actions": [
