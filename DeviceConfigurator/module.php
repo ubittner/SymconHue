@@ -90,6 +90,9 @@ class HueDeviceConfigurator extends IPSModule
                 if ($service['rtype'] == 'entertainment') {
                     continue;
                 }
+                if ($service['rtype'] == 'taurus_7455') {
+                    continue;
+                }
                 $servicesID++;
                 $values[] = [
                     'parent'                => $key + 1,
